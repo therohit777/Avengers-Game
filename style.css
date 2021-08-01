@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url("/battle\ ground.jpg") repeat-y ;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    height: 26vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.avg{
+    padding-left: 27vw;
+    padding-top:8vh ;
+    background-position: center;
+}
+
+h1{
+    color: rgb(253, 252, 252);
+    text-align: center;
+    margin-top:5vh ;
+    margin-bottom:15vh ;
+    font-size: 4vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ffj{
+    font-size:2vh ;
+}
+.box{
+    margin-top: 10vh;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3vh;
+    background-color: #0e0a0ae1;
+    padding: 5vh 10vh;
+    border-radius: 15px;
+}
+
+
+.cont1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 13px;
+}
+button{
+    margin: 2vh;
+    padding: 2vh 5vh;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 3vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cont2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+@media screen and (max-width:1000px) {
+    .avg{
+        padding-left: 24vw;
+    }
+
+    .box{
+        font-size: 2.5vh;
+        padding: 3vh 5vh;
+    }
+    
+}
+.america{
+    right: 55vw;
+
+    margin-top: 10vw;
+    margin-bottom: 3vh;
+    position: absolute;
+}
+.thanos{
+    position: absolute;
+    left: 55vw;
+    margin-top: 8vw;
+    animation: thano 5s ease-in-out infinite normal;
+}
+
+
+
+
+
+.cape{
+    animation: cap 0.6s linear;
+
+}
+@keyframes cap {
+    0%{
+        bottom: 0;
+    }
+    50%{
+        bottom: 20vw;
+    }
+    100%{
+        bottom: 0;
+        
+    }
+    
+}
+
+.thanus{
+    animation:thanus 5s linear infinite;
+}
+
+@keyframes thanus {
+    0%{
+        left: 100vw;
+    }
+    100%{
+         left: -60vw;
+    }
+}
